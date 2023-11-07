@@ -1,0 +1,139 @@
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: ghostwhite;
+}
+.column {
+  float: left;
+  width: 33%;
+  text-align:center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<script src="https://connect.facebook.net/en_GB/sdk.js?hash=e9969edb655c8dc78d8f54292a1cd04a" async="" crossorigin="anonymous"></script><script>
+function toggleVideos(title) {
+  var x = document.getElementById('moreVideos-' + title);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<link rel="stylesheet" type="text/css" id="ttEmbedLibCSS" href="https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/falcon/embed/embed_lib_v1.0.11.css"><link rel="preconnect" href="https://www.tiktok.com" crossorigin=""><link rel="preconnect" href="https://lf16-tiktok-common.ttwstatic.com" crossorigin=""><link rel="preconnect" href="https://vmweb-va.byteoversea.com" crossorigin=""><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style></head>
+<body>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&amp;version=v18.0" nonce="bLrrUQH7"></script>
+<img src="https://static-prod.adweek.com/wp-content/uploads/2022/01/ZefrLogo1200x675.jpg" width="100" style=" display: block;margin-left: auto;margin-right: auto;">
+<h1 style="text-align:center;margin-top:20px;">Trends and Insights Report - Starbucks</h1><h2 style="text-align:center;margin-top:20px;"></h2>
+<br>
+<hr>
+<h3 style="text-align:center">Starbucks Holiday Drinks</h3><br><p style="text-align:center">The release of Starbucks holiday drinks, including gingerbread oatmilk chai and sugar cookie almond milk latte.</p><br><p style="text-align:center">['#starbucksholidaydrinks', '#holidaydrinks', '#starbucks']</p><br>
+    <div class="row">
+     
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296961395126471966" style="max-width: 605px;min-width: 325px;" id="v47209486678602380">  <iframe name="__tt_embed__v47209486678602380" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296961395126471966?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 740px; display: block; visibility: unset; max-height: 740px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296946720053792031" style="max-width: 605px;min-width: 325px;" id="v1342745957144143">  <iframe name="__tt_embed__v1342745957144143" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296946720053792031?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 740px; display: block; visibility: unset; max-height: 740px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296960267504586014" style="max-width: 605px;min-width: 325px;" id="v48963785493853050">  <iframe name="__tt_embed__v48963785493853050" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296960267504586014?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 740px; display: block; visibility: unset; max-height: 740px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+       </div>  <div class="row">
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296995753208122670" style="max-width: 605px;min-width: 325px;" id="v69079337216858460"> 
+		<iframe name="__tt_embed__v69079337216858460" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296995753208122670?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 1px; display: block; visibility: unset; max-height: 1px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296812646588747054" style="max-width: 605px;min-width: 325px;" id="v24526392821058064">  <iframe name="__tt_embed__v24526392821058064" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296812646588747054?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 1px; display: block; visibility: unset; max-height: 1px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+
+</div>
+<h3 style="text-align:center">Boycott Starbucks</h3><br><p style="text-align:center">Calls to boycott Starbucks to due concerns about social issues and labor practices.</p><br><p style="text-align:center">['#boycottstarbucks', '#sustainabilityethics']</p><br>
+    <div class="row">
+     
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296982580379782443" style="max-width: 605px;min-width: 325px;" id="v11087346316156798">  <iframe name="__tt_embed__v11087346316156798" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296982580379782443?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 735px; display: block; visibility: unset; max-height: 735px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296594770565139755" style="max-width: 605px;min-width: 325px;" id="v28419035075744348">  <iframe name="__tt_embed__v28419035075744348" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296594770565139755?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 740px; display: block; visibility: unset; max-height: 740px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296721047976414510" style="max-width: 605px;min-width: 325px;" id="v92973991978536110">  <iframe name="__tt_embed__v92973991978536110" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296721047976414510?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 759px; display: block; visibility: unset; max-height: 759px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+     </div>
+	    <div class="row">
+     
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7295796261989436678" style="max-width: 605px;min-width: 325px;" id="v11087346316156798"> 
+		<iframe name="__tt_embed__v11087346316156798" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7295796261989436678?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 735px; display: block; visibility: unset; max-height: 735px;"></iframe></blockquote> 
+		<script async="" src="https://www.tiktok.com/embed.js"></script>
+
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296614131757550890" style="max-width: 605px;min-width: 325px;" id="v7296614131757550890">  
+		<iframe name="__tt_embed__v7296614131757550890" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296614131757550890?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 740px; display: block; visibility: unset; max-height: 740px;"></iframe></blockquote> 
+		<script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7295866150712298795" style="max-width: 605px;min-width: 325px;" id="v92973991978536110">  <iframe name="__tt_embed__v92973991978536110" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7295866150712298795?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 759px; display: block; visibility: unset; max-height: 759px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+     </div>	
+<h3 style="text-align:center">Starbucks in Vlogs</h3><br><p style="text-align:center">Videos showcasing Starbucks in vlogs and day to day life.</p><br><p style="text-align:center">['#dayinmylife', '#minivlog']</p><br>
+    <div class="row">
+     
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296772018878434566" style="max-width: 605px;min-width: 325px;" id="v59211774777646780">  <iframe name="__tt_embed__v59211774777646780" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296772018878434566?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 740px; display: block; visibility: unset; max-height: 740px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296623217278586154" style="max-width: 605px;min-width: 325px;" id="v5464068751800610">  <iframe name="__tt_embed__v5464068751800610" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296623217278586154?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 740px; display: block; visibility: unset; max-height: 740px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296995753208122670" style="max-width: 605px;min-width: 325px;" id="v59559965229821144">  <iframe name="__tt_embed__v59559965229821144" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296995753208122670?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 758px; display: block; visibility: unset; max-height: 758px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        
+</div>
+<h3 style="text-align:center">Starbucks Recipes</h3><br><p style="text-align:center">People are sharing recipes and hacks for making Starbucks drinks at home.</p><br><p style="text-align:center">['#starbucksdrinks', '#starbucksrecipe']</p><br>
+    <div class="row">
+     
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7295938930212425003" style="max-width: 605px;min-width: 325px;" id="v49280464219339850">  <iframe name="__tt_embed__v49280464219339850" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7295938930212425003?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 758px; display: block; visibility: unset; max-height: 758px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+	
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7295905840010218794" style="max-width: 605px;min-width: 325px;" id="v49280464219339850">  <iframe name="__tt_embed__v49280464219339850" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7295905840010218794?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 758px; display: block; visibility: unset; max-height: 758px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+         
+        <div class="column">
+        <blockquote class="tiktok-embed" data-video-id="7296291785133804801" style="max-width: 605px;min-width: 325px;" id="v66597479114932520">  <iframe name="__tt_embed__v66597479114932520" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/v2/7296291785133804801?lang=en-US&amp;referrer=http%3A%2F%2F10.13.22.231%3A8501%2F" style="width: 100%; height: 310px; display: block; visibility: unset; max-height: 310px;"></iframe></blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        
+</div>
+
+
+</body></html>
+	
